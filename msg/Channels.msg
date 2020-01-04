@@ -1,14 +1,9 @@
-# Radio control receiver channel pulse lengths in milliseconds. 
+# An array of radio control pulse-width modulation (PWM) values in units of microseconds.
 # 
-# This message contain the length of the pulses output
-# by a radio control receiver in milliseconds.
+# Typically analog radio control pulses are published at 50Hz and each pulse lasts
+# between 1000 and 2000 µs.
 # 
-# Tyically pulses are published at 50Hz and each pulse lasts
-# between 1/1000 and 1/2000 of a second, so 1000 < ch0,...,ch12 < 2000.
-# 
-# The channel pulses may also be obtained from a radio serial
+# The channel PWM values may also be obtained by decoding a radio control serial
 # signal such as SUMD which operates at a higher frequency (100 Hz).
-# In this case of SUMD the serial signal is decoded into the PWM equivalent.
-# 
 
 int16[] channels
