@@ -11,6 +11,8 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
     FILES
     Channels.msg
+    CurioState.msg
+    LX16AState.msg
 )
 
 # Generate added messages and services with any dependencies listed here
