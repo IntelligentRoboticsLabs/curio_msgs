@@ -11,7 +11,9 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
     FILES
     Channels.msg
-    CurioState.msg
+    CurioServoCommands.msg
+    CurioServoPositions.msg
+    CurioServoStatus.msg
     LX16AState.msg
 )
 

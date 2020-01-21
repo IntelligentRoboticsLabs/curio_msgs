@@ -1,23 +1,20 @@
 # State of a Lewansoul LX-16A servo
 
-# Constants
+# Servo operation mode constants
 uint8 LX16A_MODE_SERVO = 0
 uint8 LX16A_MODE_MOTOR = 1
 
-# The servo serial id
-uint8 servo_id
+# Servo servo serial id
+uint8 id
 
-# Operational state
+# Servo diagnostic status
 float64 temperature
 float64 voltage
 
-# Calibration
+# Servo angle offset
 int32 angle_offset
 
-# Encoder
+# Servo status
 uint8 mode
 int32 duty
-int32 pos
-uint8 pos_is_valid
-int64 count
-uint8 count_is_inverted
+int32 position
