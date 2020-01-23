@@ -12,8 +12,10 @@ add_message_files(
     FILES
     Channels.msg
     CurioServoCommands.msg
+    CurioServoEncoders.msg
     CurioServoPositions.msg
-    CurioServoStatus.msg
+    CurioServoStates.msg
+    LX16AEncoder.msg
     LX16AState.msg
 )
 

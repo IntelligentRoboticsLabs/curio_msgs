@@ -1,10 +1,10 @@
-# State of a Lewansoul LX-16A servo
+# Lewansoul LX-16A servo state
 
-# Servo operation mode constants
+# Constants for the servo move mode
 uint8 LX16A_MODE_SERVO = 0
 uint8 LX16A_MODE_MOTOR = 1
 
-# Servo servo serial id
+# Servo serial id
 uint8 id
 
 # Servo diagnostic status
@@ -14,7 +14,7 @@ float64 voltage
 # Servo angle offset
 int32 angle_offset
 
-# Servo status
+# Servo move: command is position for mode = 0 amd duty for mode = 1
 uint8 mode
-int32 duty
+int32 command
 int32 position

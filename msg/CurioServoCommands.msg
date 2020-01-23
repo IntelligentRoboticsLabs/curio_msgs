@@ -3,9 +3,9 @@
 # Stamp.
 std_msgs/Header header
 
-# Wheel servo duty commands.
-int16[] wheel_servo_duties
+# Wheel servo commands (duty).
+int16[] wheel_commands
 
-# Steering servo position commands.
-int16[] steer_servo_positions
+# Steering servo commands (position).
+int16[] steer_commands
 
