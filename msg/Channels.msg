@@ -6,4 +6,4 @@
 # The channel PWM values may also be obtained by decoding a radio control serial
 # signal such as SUMD which operates at a higher frequency (100 Hz).
 
-int16[] channels
+uint16[] channels
