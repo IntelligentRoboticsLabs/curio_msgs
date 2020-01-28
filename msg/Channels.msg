@@ -1,4 +1,4 @@
-# An array of radio control pulse-width modulation (PWM) values in units of microseconds.
+# An array of radio control pulse-width modulated (PWM) values in units of microseconds.
 # 
 # Typically analog radio control pulses are published at 50Hz and each pulse lasts
 # between 1000 and 2000 µs.

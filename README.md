@@ -1,4 +1,4 @@
-# ROS messages package for Curio - a Sawppy Rover
+# ROS messages package for Curio
 
 `curio_msgs` contains ROS message types used in the
 [`curio`](https://github.com/srmainwaring/curio) packages.
@@ -9,7 +9,7 @@ This package includes the following message types.
 
 ### `curio_msgs/Channels`
 
-An array of radio control pulse-width modulation (PWM) values in units of microseconds.
+An array of radio control pulse-width modulated (PWM) values in units of microseconds.
 
 Typically analog radio control pulses are published at 50Hz and each pulse lasts
 between 1000 and 2000 µs.
@@ -38,7 +38,7 @@ The second contains an array of steering servo postions.
 
 ### `curio_msgs/CurioServoStates`
 
-A time-stamped message containing an two arrays of
+A time-stamped message containing two arrays of
 `curio_msgs/LX16AState` messages.
 The first array is for the state of the wheel servos.
 The second array is for the state of the steering servos.
@@ -52,9 +52,11 @@ encoder count and number of revolutions since reset.
 ### `curio_msgs/LX16AState`
 
 The state of a LX-16A servo. The message contains raw data
-that can be read directly from the servo.
+read directly from the servo.
 
 ## Installation
+
+To install the package into a catkin workspace `~/curio_ws`:
 
 ```bash
 cd ~/curio_ws/src
