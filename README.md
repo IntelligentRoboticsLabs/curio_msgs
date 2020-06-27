@@ -65,6 +65,22 @@ cd ~/curio_ws
 catkin build
 ```
 
+## Build Status
+
+### Develop Job Status
+
+|    | Melodic |
+|--- |--- |
+| curio_msgs | [![Build Status](https://travis-ci.org/srmainwaring/curio_msgs.svg?branch=develop)](https://travis-ci.org/srmainwaring/curio_msgs) |
+
+
+### Release Job Status
+
+|    | Melodic |
+|--- |--- |
+| curio_msgs | [![Build Status](https://travis-ci.org/srmainwaring/curio_msgs.svg?branch=master)](https://travis-ci.org/srmainwaring/curio_msgs) |
+
+
 ## License
 
 This software is licensed under the BSD-3-Clause license found in the LICENSE file
