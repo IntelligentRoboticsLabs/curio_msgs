@@ -17,6 +17,10 @@ between 1000 and 2000 µs.
 The channel PWM values may also be obtained by decoding a radio control serial
 signal such as SUMD which operates at a higher frequency (100 Hz).
 
+### `curio_msgs/CurioIMU`
+
+A lightweight IMU message (no covariances) for communicating data from a multi-DOF IMU.
+
 ### `curio_msgs/CurioServoCommands`
 
 A time-stamped message containing two arrays of servo commands.
@@ -59,11 +63,31 @@ read directly from the servo.
 To install the package into a catkin workspace `~/curio_ws`:
 
 ```bash
+# Clone repository
 cd ~/curio_ws/src
 git clone https://github.com/srmainwaring/curio_msgs.git
+
+# Configure and build
 cd ~/curio_ws
+catkin config --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo
 catkin build
 ```
+
+## Build Status
+
+### Develop Job Status
+
+|    | Melodic |
+|--- |--- |
+| curio_msgs | [![Build Status](https://travis-ci.org/srmainwaring/curio_msgs.svg?branch=develop)](https://travis-ci.org/srmainwaring/curio_msgs) |
+
+
+### Release Job Status
+
+|    | Melodic |
+|--- |--- |
+| curio_msgs | [![Build Status](https://travis-ci.org/srmainwaring/curio_msgs.svg?branch=master)](https://travis-ci.org/srmainwaring/curio_msgs) |
+
 
 ## License
 
