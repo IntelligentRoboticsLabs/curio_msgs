@@ -3,6 +3,9 @@
 `curio_msgs` contains ROS message types used in the
 [`curio`](https://github.com/srmainwaring/curio) packages.
 
+## Foreword
+This is a fork of the original code, changed to work with ROS2 Foxy.
+
 ## Overview
 
 This package includes the following message types.
@@ -69,8 +72,7 @@ git clone https://github.com/srmainwaring/curio_msgs.git
 
 # Configure and build
 cd ~/curio_ws
-catkin config --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo
-catkin build
+colcon build --packages-select curio_msgs
 ```
 
 ## Build Status

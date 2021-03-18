@@ -4,7 +4,7 @@
 # for communicating data from a multi-DOF IMU.
 
 # Header
-Header header
+std_msgs/Header header
 
 # Orientaton
 geometry_msgs/Quaternion orientation
